@@ -47,6 +47,7 @@ function writeFiles(dir) {
 			fs.appendFileSync(path.join(dir, filename), contents);
 			sizeWritten += sizeToWrite;
 		}
+		fs.chmodSync(path.join(dir, filename), '0666');
 	}
 }
 
