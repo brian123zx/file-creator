@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var createFiles = require('./createFiles');
+var createFiles = require('../createFiles');
 var argv = require('minimist')(process.argv.slice(2));
 var filesizeParser = require('filesize-parser');
 var path = require('path');
