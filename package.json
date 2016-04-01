@@ -21,5 +21,8 @@
     "lodash": "^4.7.0",
     "minimist": "^1.2.0",
     "randomstring": "^1.1.4"
+  },
+  "bin": {
+    "file-creator": "bin/file-creator"
   }
 }
