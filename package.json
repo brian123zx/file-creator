@@ -1,0 +1,25 @@
+{
+  "name": "file-creator",
+  "version": "1.0.0",
+  "description": "Creates files with random contents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brian123zx/file-creator.git"
+  },
+  "author": "Brian Cooper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brian123zx/file-creator/issues"
+  },
+  "homepage": "https://github.com/brian123zx/file-creator#readme",
+  "dependencies": {
+    "filesize-parser": "^1.3.1",
+    "lodash": "^4.7.0",
+    "minimist": "^1.2.0",
+    "randomstring": "^1.1.4"
+  }
+}
