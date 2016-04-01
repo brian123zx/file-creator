@@ -5,7 +5,7 @@ var filesizeParser = require('filesize-parser');
 var path = require('path');
 
 var opts = {
-	parentFolder: path.resolve(argv.folder),
+	parentFolder: path.resolve(argv.folder || process.cwd()),
 	numFiles: 1,
 	numSubdirectories: argv.numSubdirectories || 0,
 	numSubDirectoryLevels: argv.numSubDirectoryLevels || 0,
